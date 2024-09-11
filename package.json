@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^1.5.1",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "buffer": "^6.0.3",
+    "input": "^1.0.1",
+    "nuxt": "^3.13.0",
+    "qrcode.vue": "^3.4.1",
+    "showdown": "^2.1.0",
+    "telegram": "^2.24.10",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/showdown": "^2.0.6",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10"
+  }
+}
