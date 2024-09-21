@@ -1,5 +1,27 @@
 # TeleFeed
 
+News feed for Telegram. No need to go to every channel to see latest posts.
+
+# How to use
+Visit [https://telefeed.netlify.app/](https://telefeed.netlify.app/)
+
+### step - 1
+`One time step`
+To start using the telefeed app, it will ask for `app_id` and `app_hash` for once. 
+Do not share these information with anyone else. This app, saves these information only in your device.
+You can get your telegram `app_id` and `app_hash` from [here](https://my.telegram.org/apps)
+
+### step - 2
+`One time step`
+You will see a login option, scan the QR code from your telegram app to login.
+
+### step - 3
+On successful login, you will see your subscribed channels. Click on the channel name to select it for the feed.
+
+### step - 4
+After selection is done, click on the `refresh` icon in the page. You will be able to browse the posts from the selected channels in a news feed.
+
+## Tech
 Built with Nuxt 3
 
 ## Setup
